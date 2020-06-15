@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: right;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header > span {
+    display: inline-block;
+    padding: 30px;
+    height: 100%;
+    font-size: 36px;
+}
+
+.header > span.active {
+    color: white;
+    background: darkorange;
+}
+
+.container {
+
+}
